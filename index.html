@@ -8,6 +8,9 @@
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family: 'Segoe UI', Arial, sans-serif; background:#f4faf7; color:#1c2b24; }
+  .topnav { background:#006e52; padding:12px 16px; text-align:center; }
+  .topnav a { color:#fff; text-decoration:none; font-size:14.5px; font-weight:600; margin:0 9px; white-space:nowrap; }
+  .topnav a:hover { text-decoration:underline; }
   .hero { background: linear-gradient(160deg, #00795a, #00b386); color:#fff; text-align:center; padding:44px 20px 34px; }
   .hero img.icon { width:110px; height:110px; border-radius:24px; box-shadow:0 8px 24px rgba(0,0,0,.25); }
   .hero h1 { font-size:30px; margin-top:16px; }
@@ -26,12 +29,28 @@
   .shots img { width:200px; max-width:44vw; border-radius:14px; border:1px solid #dcefe6; box-shadow:0 4px 14px rgba(0,60,40,.08); }
   .steps { background:#fff; border:1px solid #dcefe6; border-radius:14px; padding:18px 22px; font-size:15.5px; line-height:1.75; }
   .steps b { color:#00795a; }
+  .article { background:#fff; border:1px solid #dcefe6; border-radius:14px; padding:20px 24px; font-size:15.5px; line-height:1.85; }
+  .article p { margin-bottom:12px; }
+  .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px; }
+  .card { background:#fff; border:1px solid #dcefe6; border-radius:14px; padding:16px 18px; font-size:15px; }
+  .card a { color:#00795a; font-weight:700; text-decoration:none; font-size:16px; }
+  .card p { margin-top:6px; color:#345; }
   .note { text-align:center; font-size:14px; color:#456; margin-top:14px; }
-  footer { text-align:center; padding:26px 16px 34px; font-size:13.5px; color:#678; }
-  footer a { color:#00795a; text-decoration:none; font-weight:600; }
+  footer { text-align:center; padding:26px 16px 34px; font-size:13.5px; color:#678; line-height:2; }
+  footer a { color:#00795a; text-decoration:none; font-weight:600; margin:0 6px; }
 </style>
 </head>
 <body>
+
+<nav class="topnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="how-to-use.html">How to Use</a>
+  <a href="walking-tips.html">Walking Tips</a>
+  <a href="health-benefits.html">Health Benefits</a>
+  <a href="faq.html">FAQ</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
 <div class="hero">
   <img class="icon" src="icon.png" alt="Qadam app icon">
@@ -69,12 +88,30 @@
     <b>4.</b> Steps ginne ki ijazat (Activity / Physical activity) mange to <b>Allow</b> kar dein — bas, chalna shuru karein!
   </div>
 
+  <h2>Why Walk with Qadam?</h2>
+  <div class="article">
+    <p>Walking is the simplest exercise in the world. It needs no gym, no equipment and no money — yet doctors agree it is one of the best habits for your heart, your weight, your sugar level and your mood. The hard part is not walking; the hard part is <b>staying consistent</b>. That is exactly the problem Qadam was made to solve.</p>
+    <p>Qadam (قدم — an Urdu word that means "a step") counts every step you take during the day using your phone's built-in step sensor. There is no account to create and no internet needed. Open the app in the morning, keep your phone in your pocket, and walk. A friendly voice cheers you on after every 100 steps, your goal ring fills up as you move, and at the end of the day you can see your steps, distance, calories and walking time at a glance.</p>
+    <p>Small steps every day beat one big effort once a month. Whether your goal is losing weight, controlling sugar, or simply feeling more active, Qadam keeps you honest and motivated — one qadam at a time. Read our <a href="walking-tips.html">practical tips to reach 10,000 steps a day</a> and the <a href="health-benefits.html">proven health benefits of daily walking</a> to get the most out of your walks.</p>
+  </div>
+
+  <h2>Learn More</h2>
+  <div class="cards">
+    <div class="card"><a href="about.html">About Qadam →</a><p>Why we built this app, who it is for, and what makes it different.</p></div>
+    <div class="card"><a href="how-to-use.html">How to Use Qadam →</a><p>Step-by-step guide: install, permissions, goals, history and badges.</p></div>
+    <div class="card"><a href="walking-tips.html">12 Tips for 10,000 Steps →</a><p>Simple, realistic ways to walk more every single day.</p></div>
+    <div class="card"><a href="health-benefits.html">Health Benefits of Walking →</a><p>What daily walking does for your heart, weight, sugar and mind.</p></div>
+    <div class="card"><a href="faq.html">FAQ →</a><p>Answers about accuracy, battery, privacy and troubleshooting.</p></div>
+    <div class="card"><a href="contact.html">Contact Us →</a><p>Questions, feedback or a problem with the app? Write to us.</p></div>
+  </div>
+
   <p class="note">Qadam aap ka step data sirf aap ke phone mein rakhta hai — hum aap ka personal data nahi bechte.</p>
 
 </div>
 
 <footer>
-  Contact: casenovatv@gmail.com &nbsp;•&nbsp; <a href="privacy-policy.html">Privacy Policy</a><br>
+  <a href="index.html">Home</a> • <a href="about.html">About</a> • <a href="how-to-use.html">How to Use</a> • <a href="walking-tips.html">Walking Tips</a> • <a href="health-benefits.html">Health Benefits</a> • <a href="faq.html">FAQ</a> • <a href="contact.html">Contact</a> • <a href="privacy-policy.html">Privacy Policy</a><br>
+  Contact: casenovatv@gmail.com<br>
   © 2026 Qadam
 </footer>
 
